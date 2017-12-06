@@ -1,0 +1,25 @@
+{
+    "name": "philipmorrisp/laravel-exception-email-notification",
+    "description": "Send an email notification when found an exception with Mailable, Job Queue, EmailEventHandler",
+    "keywords": ["laravel", "exception", "notification", "email", "job queue", "event"],
+    "license": "MIT",
+    "type": "package",
+    "authors": [
+        {
+            "name": "philipmorris1697",
+            "email": "philipmorris1697@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Philipmorrisp\\LaravelExceptionEmailNotification\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.4"
+    }
+}
